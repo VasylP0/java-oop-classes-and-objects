@@ -1,12 +1,27 @@
-# Java OOP: Classes and Objects
+# Java OOP — Classes and Objects
 
-Educational project from the Hexlet Java course.
+A simple Java project demonstrating **object-oriented programming (OOP)** concepts such as encapsulation, constructors, and relationships between classes.
 
-**Goal:** Practice creating and using classes and objects in Java.  
-**Key Topics:** object state, constructors, encapsulation, composition.  
-**Technologies:** Java 21, Gradle 8, JUnit 5.
+This project was built as part of the **Hexlet Java Developer program**.
 
-### Run Tests
+---
+
+## 🚀 Features
+- Defines a `Point` class representing a coordinate in 2D space  
+- Defines a `Segment` class built from two `Point` instances  
+- Includes unit tests for both classes  
+- Uses **Gradle** build system and **JUnit 5** for testing
+
+---
+
+## 🧰 Technologies
+- Java 21  
+- Gradle 8  
+- JUnit 5  
+- AssertJ  
+
+---
+
+## 🧪 Running tests
 ```bash
 make test
-
